@@ -11,3 +11,6 @@
 body{
     font-family: 'Julius Sans One', sans-serif;
 }
+a:visited { 
+    color: pink;
+}

@@ -12,5 +12,11 @@ body{
     font-family: 'Julius Sans One', sans-serif;
 }
 a:visited { 
-    color: pink;
+    color: rgb(158, 155, 199);
+}
+
+.plain-image {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }

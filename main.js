@@ -2,7 +2,17 @@ const quizContainer = document.getElementById('quiz')
 const resultContainer = document.getElementById('results')
 const submitButton = document.getElementById('submit');
 
-function buildQuiz(){}
+function buildQuiz(){
+    //place to store HTML output
+    const output = [];
+    //for each question...
+    myQuestions.forEach(
+        (currentQuestion, questionNumber) => {
+            //storing the list anser choices
+            const answers = [];
+        }
+    )
+}
 
 function showResults(){}
 
@@ -24,7 +34,7 @@ const myQuestions = [{
         correctAnswer: "c"
 },
     {
-    question: "Question 1",
+    question: "Question 2",
 
     answers: {
         a: "Option 1",
@@ -35,7 +45,7 @@ const myQuestions = [{
     correctAnswer: "b"
 },
     {
-    question: "Question 1",
+    question: "Question 3",
 
     answers: {
         a: "Option 1",
